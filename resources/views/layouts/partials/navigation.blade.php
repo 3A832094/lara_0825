@@ -1,5 +1,6 @@
-<title>@yield('title')</title>
-
+<head>
+    <title>@yield('title')</title>
+</head>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="../../index.blade.php">Start Bootstrap</a>

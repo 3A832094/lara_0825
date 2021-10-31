@@ -1,5 +1,6 @@
-<title>@yield('title')</title>
-
+<head>
+    <title>@yield('title')</title>
+</head>
 <footer>
     <div class="container">
         <div class="row">
