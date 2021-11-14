@@ -26,7 +26,10 @@ Route::get('contact', [\App\Http\Controllers\PostsController::class, 'contact'])
 //$post->content = 'test content1';
 //$post->save();
 //---------------------------------------
-Post::create([
-    'title' => 'test title2',
-    'content' => 'test content',
-]);
+//Post::create([
+//    'title' => 'test title2',
+//    'content' => 'test content',
+//]);
+//---------------------------------------
+$posts = Post::all();
+dd($posts);
