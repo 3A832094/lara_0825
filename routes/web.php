@@ -68,3 +68,8 @@ Route::get('contact', [\App\Http\Controllers\PostsController::class, 'contact'])
 //$lastPost = Post::orderBy('id', 'DESC')->first();
 //dd($lastPost);
 //---------------------------------------
+$post = Post::find(4);
+echo $post->title.'<br>';
+foreach ($post->comments as $comment){
+    echo $comment->content.'<br>';
+}
