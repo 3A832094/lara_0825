@@ -21,7 +21,12 @@ Route::get('post', [\App\Http\Controllers\PostsController::class, 'post'])->name
 Route::get('about', [\App\Http\Controllers\PostsController::class, 'about'])->name('posts.about');
 Route::get('contact', [\App\Http\Controllers\PostsController::class, 'contact'])->name('posts.contact');
 
-$post = new Post();
-$post->title = 'test title1';
-$post->content = 'test content1';
-$post->save();
+//$post = new Post();
+//$post->title = 'test title1';
+//$post->content = 'test content1';
+//$post->save();
+//---------------------------------------
+Post::create([
+    'title' => 'test title2',
+    'content' => 'test content',
+]);
