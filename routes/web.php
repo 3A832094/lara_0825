@@ -65,5 +65,6 @@ Route::get('contact', [\App\Http\Controllers\PostsController::class, 'contact'])
 //$fourthPost = Post::find(4);
 //dd($fourthPost);
 //---------------------------------------
-$lastPost = Post::orderBy('id', 'DESC')->first();
-dd($lastPost);
+//$lastPost = Post::orderBy('id', 'DESC')->first();
+//dd($lastPost);
+//---------------------------------------
